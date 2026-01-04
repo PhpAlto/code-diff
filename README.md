@@ -5,11 +5,11 @@ patching support.
 
 ---
 
-&nbsp; ![PHP Version](https://img.shields.io/badge/PHP-8.3+-1e40af?logoColor=white&labelColor=000)
-&nbsp; ![CI](https://img.shields.io/github/actions/workflow/status/PhpAlto/code-diff/CI.yml?branch=main&label=Tests&logoColor=white&logoSize=auto&labelColor=000&color=2563eb)
-&nbsp; ![Release](https://img.shields.io/github/v/release/PhpAlto/code-diff?label=Stable&logoColor=white&logoSize=auto&labelColor=000&color=4ba3f7)
+&nbsp; [![PHP Version](https://img.shields.io/badge/PHP-8.3+-1e40af?logoColor=white&labelColor=000)](https://github.com/PhpAlto/code-diff)
+&nbsp; [![CI](https://img.shields.io/github/actions/workflow/status/PhpAlto/code-diff/CI.yml?branch=main&label=Tests&logoColor=white&logoSize=auto&labelColor=000&color=2563eb)](https://github.com/PhpAlto/code-diff/actions)
+&nbsp; [![Packagist Version](https://img.shields.io/packagist/v/alto/code-diff?label=Stable&logoColor=white&logoSize=auto&labelColor=000&color=4ba3f7)](https://packagist.org/packages/alto/code-diff)
 &nbsp; [![GitHub Sponsors](https://img.shields.io/github/sponsors/smnandre?logo=github-sponsors&logoColor=4ba3f7&logoSize=auto&label=%20Sponsor&labelColor=000&color=2979ff)](https://github.com/sponsors/smnandre)
-&nbsp; ![License](https://img.shields.io/github/license/PhpAlto/code-diff?label=License&logoColor=white&logoSize=auto&labelColor=000&color=1e40af)
+&nbsp; [![License](https://img.shields.io/github/license/PhpAlto/code-diff?label=License&logoColor=white&logoSize=auto&labelColor=000&color=1e40af)](./LICENSE)
 
 ## Features
 
