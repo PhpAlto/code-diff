@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160" role="img"
+     aria-label="ANSI diff preview">
+    <style>
+        text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 14px; }
+        .bg { fill: #050505; }
+        .meta { fill: #81d4fa; }
+        .line { fill: #e0e0e0; }
+        .del { fill: #ef9a9a; }
+        .add { fill: #99d6a7; }
+        .gutter { fill: #757575; }
+    </style>
+    <rect class="bg" x="0" y="0" width="760" height="160" rx="4"/>
+    <text class="meta" x="24" y="40">@@ -21,5 +21,6 @@ services.php</text>
+    <text class="gutter" x="24" y="68">021</text>
+    <text class="line" x="72" y="68">public function register(): void</text>
+    <text class="gutter" x="24" y="94">022</text>
+    <text class="del" x="72" y="94">- $this->app->bind(Logger::class, FileLogger::class);</text>
+    <text class="gutter" x="24" y="120">022</text>
+    <text class="add" x="72" y="120">+ $this->app->bind(Logger::class, ConsoleLogger::class);</text>
+    <text class="gutter" x="24" y="146">023</text>
+    <text class="add" x="72" y="146">+ $this->app->tag(Logger::class, ['console', 'diff']);</text>
+</svg>

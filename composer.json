@@ -1,0 +1,64 @@
+{
+    "name": "alto/code-diff",
+    "description": "Generate, render and apply code diffs. Myers algorithm, versatile rendering (HTML, JSON, ANSI), and full patching support.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "diff",
+        "patch",
+        "unified",
+        "myers",
+        "lcs",
+        "visualization",
+        "formatting",
+        "rendering",
+        "html",
+        "json",
+        "ansi"
+    ],
+    "authors": [
+        {
+            "name": "Simon André",
+            "email": "smn.andre@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/phpalto/code-diff",
+    "support": {
+        "issues": "https://github.com/phpalto/code-diff/issues",
+        "docs": "https://github.com/phpalto/code-diff#readme"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/smnandre"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.92",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alto\\Code\\Diff\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alto\\Code\\Diff\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "cs": "vendor/bin/php-cs-fixer fix",
+        "qa": [
+            "@cs",
+            "@sa",
+            "@test"
+        ],
+        "sa": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/phpunit"
+    }
+}

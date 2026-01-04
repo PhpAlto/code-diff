@@ -1,0 +1,4 @@
+This is the new content of file 1.
+It has three lines, but different.
+The last line is here.
+And a new line 4.

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="320" viewBox="0 0 780 320" role="img"
+     aria-label="JSON Preview">
+    <style>
+        text { font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+        font-size: 12px; fill: #c9d1d9; dominant-baseline: central; }
+        .bg { fill: #0d1117; }
+    </style>
+    <rect class="bg" x="0" y="0" width="780" height="320" rx="4"/>
+    <text x="20" y="30.00" xml:space="preserve">{</text>
+    <text x="20" y="50.00" xml:space="preserve">    &quot;type&quot;: &quot;result&quot;,</text>
+    <text x="20" y="70.00" xml:space="preserve">    &quot;oldLabel&quot;: <tspan fill="#a5d6ff">null</tspan>,</text>
+    <text x="20" y="90.00" xml:space="preserve">    &quot;newLabel&quot;: <tspan fill="#a5d6ff">null</tspan>,</text>
+    <text x="20" y="110.00" xml:space="preserve">    &quot;oldHasTrailingNewline&quot;: <tspan
+            fill="#a5d6ff">false</tspan>,</text>
+    <text x="20" y="130.00" xml:space="preserve">    &quot;newHasTrailingNewline&quot;: <tspan
+            fill="#a5d6ff">false</tspan>,</text>
+    <text x="20" y="150.00" xml:space="preserve">    &quot;hunks&quot;: [</text>
+    <text x="20" y="170.00" xml:space="preserve">        {</text>
+    <text x="20" y="190.00" xml:space="preserve">            &quot;oldStart&quot;: <tspan fill="#a5d6ff">3</tspan>,</text>
+    <text x="20" y="210.00" xml:space="preserve">            &quot;oldLen&quot;: <tspan fill="#a5d6ff">6</tspan>,</text>
+    <text x="20" y="230.00" xml:space="preserve">            &quot;newStart&quot;: <tspan fill="#a5d6ff">3</tspan>,</text>
+    <text x="20" y="250.00" xml:space="preserve">            &quot;newLen&quot;: <tspan fill="#a5d6ff">7</tspan>,</text>
+    <text x="20" y="270.00" xml:space="preserve">    ...</text>
+</svg>
