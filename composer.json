@@ -22,10 +22,10 @@
             "email": "smn.andre@gmail.com"
         }
     ],
-    "homepage": "https://github.com/phpalto/code-diff",
+    "homepage": "https://github.com/altophp/code-diff",
     "support": {
-        "issues": "https://github.com/phpalto/code-diff/issues",
-        "docs": "https://github.com/phpalto/code-diff#readme"
+        "issues": "https://github.com/altophp/code-diff/issues",
+        "docs": "https://github.com/altophp/code-diff#readme"
     },
     "funding": [
         {
