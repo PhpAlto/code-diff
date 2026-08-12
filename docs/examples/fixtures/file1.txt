@@ -1,3 +1,0 @@
-This is the original content of file 1.
-It has three lines.
-The last line is here.
