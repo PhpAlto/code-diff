@@ -348,17 +348,7 @@ $file->headers['index'];  // 'index abcdef..123456 100644'
 
 ## Documentation
 
-For more detailed information, please refer to the documentation in the `docs/` directory:
-
-- [API Reference](docs/api-reference.md)
-- [Architecture](docs/architecture.md)
-- [Basic Text Comparison](docs/basic-text-comparison.md)
-- [File Comparison](docs/file-comparison.md)
-- [Git Integration](docs/git-integration.md)
-- [Patch Operations](docs/patch-operations.md)
-- [Rendering Options](docs/rendering-options.md)
-- [Advanced Scenarios](docs/advanced-scenarios.md)
-- [Examples](docs/examples.md)
+The complete documentation is available at [altophp.com/code-diff](https://altophp.com/code-diff).
 
 ## Testing
 
